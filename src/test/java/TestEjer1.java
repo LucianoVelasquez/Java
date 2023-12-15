@@ -2,7 +2,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import com.example.Ejer1;
+import com.example.Ejercicios.Ejer1;
 
 public class TestEjer1 {
     Ejer1 s = new Ejer1();
