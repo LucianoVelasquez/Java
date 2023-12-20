@@ -1,8 +1,7 @@
-import static org.junit.Assert.assertEquals;
-
+import com.example.Ejercicios.Ejer2;
 import org.junit.Test;
 
-import com.example.Ejercicios.Ejer2;
+import static org.junit.Assert.assertEquals;
 
 public class TestEjer2 {
     Ejer2 praEjer2 = new Ejer2();
@@ -22,6 +21,7 @@ public class TestEjer2 {
     @Test
     public void test3(){
         assertEquals(5,praEjer2.findFirstRepeated(giftIds3));
+
     }
 
 
