@@ -14,12 +14,11 @@ public class Ejer3 {
         ArrayList<String> res = new ArrayList<String>();
         
 
-
         for(int i = 0; i < gifts.length;i++){
 
             String[] letras = gifts[i].split("");
 
-            for(int j =0; j < letras.length;j++){
+            for(int j = 0; j < letras.length;j++){
                 if(materials.contains(letras[j])){
                     contador++;
                 }
@@ -30,6 +29,7 @@ public class Ejer3 {
                 contador = 0;
             }
         }
+
 
         return res;
     }
