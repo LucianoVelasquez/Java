@@ -5,6 +5,7 @@ public class Ejer1 {
      
     private int sumaTotal = 0;
 
+
     public int getSuma(int a, int b) {
 
         if (a == b) {

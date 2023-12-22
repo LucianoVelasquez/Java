@@ -8,10 +8,7 @@ public class Ejer4 {
         String[] letrasOirign = original.split("");
         String[] letrasModifequed = modifiqued.split("");
 
-        //String original = "abcd";
-        //String modified = "abcde";
-
-
+        
         for (int i = 0; i < letrasOirign.length; i++) {
 
             if(!letrasModifequed[i].equals(letrasOirign[i])){
